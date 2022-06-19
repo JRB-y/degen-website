@@ -1,6 +1,7 @@
 var swiper =  new Swiper(".slider-main", {
     slidesPerView: 1,
     loop: false, 
+    autoplay: false,
     spaceBetween: 0,
     navigation: {
         nextEl: ".btn-next-main",
